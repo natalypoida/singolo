@@ -6,6 +6,7 @@ html {
 
 body {
   margin: 0;
+  width: 1020px;
 }
 
 
@@ -17,7 +18,7 @@ body {
 .header-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 1020px;
+  width: 102rem;
   margin: 0 auto;
 }
 
@@ -34,25 +35,28 @@ body {
   text-transform: uppercase;
   color: white;
   line-height: 2rem;
-  margin: 34px 0 35px 40px;
+  margin: 3.4rem 0 3.5rem 4rem;
 }
 
 .logo::after {
   color: #f06c64;
   content: "*";
 }
-
+.nav {
+  position: relative;
+  left: 4rem;
+}
 .nav-list {
   display: flex;
-  margin-top: 45px;
-  margin-right: 40px;
+  margin-top: 4.5rem;
+  margin-right: 4rem;
   list-style: none;
 }
 
 .nav-link {
   position: relative;
-  margin-top: 45px;
-  margin-right: 40px;
+  margin-top:4.5rem;
+  margin-right: 4rem;
   text-decoration: none;
     color: #ffffff;
     font-size: 1.2rem;
@@ -63,8 +67,8 @@ body {
 .colored {
   color:#f06c64;
   position: relative;
-  margin-top: 45px;
-  margin-right: 40px;
+  margin-top:4.5rem;
+  margin-right: 4rem;
   text-decoration: none;
   font-size: 1.2rem;
   line-height: 0.9rem;
