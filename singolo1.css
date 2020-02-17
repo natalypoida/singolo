@@ -22,10 +22,6 @@ body {
   margin: 0 auto;
 }
 
-.main {
-  background-color: #f06c64;
-}
-
 .footer {
   background-color: #f2f2f2;
 }
@@ -58,12 +54,13 @@ body {
   margin-top:4.5rem;
   margin-right: 4rem;
   text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2rem;
-    line-height: 0.9rem;
-    font-weight: 700;
-    text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
+
 .colored {
   color:#f06c64;
   position: relative;
@@ -75,6 +72,49 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.main {
+  background-color: #f06c64;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 53px 0;
+  margin: 0 auto;
+}
+
+.button-left,
+.button-right {
+  width: 16px;
+  height: 27px;
+  position: relative;
+  bottom: 190px;
+  cursor: pointer;
+  border: none;
+}
+
+.button-left {
+    margin-left: 40px;
+    background: url("assets/left.png") no-repeat 0 0;
+}
+
+.button-right {
+  margin-left: 60px;
+  background: url("assets/right.png") no-repeat 0 0;
+}
+
+.iphone-vertical {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.iphone-horizontal {
+margin-bottom: 70px;  
+  margin-left: 70px;
+}
+
 
 .nav-link:hover {
   color: #f06c64;
