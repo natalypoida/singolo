@@ -96,23 +96,23 @@ body {
 }
 
 .button-left {
-    margin-left: 40px;
+    margin-left: 41px;
+    margin-top: 375px;
     background: url("assets/left.png") no-repeat 0 0;
 }
 
 .button-right {
-  margin-left: 60px;
+  margin-left: 56px;
+  margin-top: 375px;
   background: url("assets/right.png") no-repeat 0 0;
 }
 
 .iphone-vertical {
-  margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 56px;
 }
 
 .iphone-horizontal {
-margin-bottom: 70px;  
-  margin-left: 70px;
+  margin-left: 73px;
 }
 
 
