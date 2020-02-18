@@ -116,6 +116,11 @@ body {
     margin-top: 375px;
     background: url("assets/left.png") no-repeat 0 0;
 }
+.button-left:hover {
+  margin-left: 41px;
+  margin-top: 375px;
+  background: url("assets/left-black.png") no-repeat 0 0;
+}
 
 .button-right {
   margin-left: 56px;
@@ -123,9 +128,14 @@ body {
   background: url("assets/right.png") no-repeat 0 0;
 }
 
-.button:hover {
-  background-color: black;
+.button-right:hover {
+  margin-left: 56px;
+  margin-top: 375px;
+  background: url("assets/right-black.png") no-repeat 0 0;
 }
+
+
+
 .iphone-vertical {
   margin-left: 56px;
 }
