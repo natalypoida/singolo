@@ -57,7 +57,13 @@ body {
   text-transform: uppercase;
 }
 
-
+.nav-link::after {
+  position: relative;
+  left: 18px;
+  bottom: 2px;
+  color: #494e62;
+  content: "."; 
+}
 
 .nav-link:nth-child(1) {
   margin-right: 29px;
@@ -73,6 +79,14 @@ body {
   line-height: 0.9rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.colored::after {
+  position: relative;
+  left: 18px;
+  bottom: 2px;
+  color: #494e62;
+  content: ".";  
 }
 
 .main {
@@ -109,6 +123,9 @@ body {
   background: url("assets/right.png") no-repeat 0 0;
 }
 
+.button:hover {
+  background-color: black;
+}
 .iphone-vertical {
   margin-left: 56px;
 }
