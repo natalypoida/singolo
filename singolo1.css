@@ -27,11 +27,11 @@ body {
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   text-transform: uppercase;
   color: white;
   line-height: 2rem;
-  margin: 3.4rem 0 3.5rem 4rem;
+  margin: 3.4rem 0 3.5rem 4.1rem;
 }
 
 .logo::after {
@@ -40,19 +40,15 @@ body {
 }
 .nav {
   position: relative;
-  left: 4rem;
 }
 .nav-list {
+  margin-right: 10px;
   display: flex;
-  margin-top: 4.5rem;
-  margin-right: 4rem;
+  margin-top: 4.4rem;
   list-style: none;
 }
 
 .nav-link {
-  position: relative;
-  margin-top:4.5rem;
-  margin-right: 4rem;
   text-decoration: none;
   color: #ffffff;
   font-size: 1.2rem;
@@ -61,11 +57,17 @@ body {
   text-transform: uppercase;
 }
 
+
+
+.nav-link:nth-child(1) {
+  margin-right: 29px;
+  }
+
 .colored {
   color:#f06c64;
   position: relative;
   margin-top:4.5rem;
-  margin-right: 4rem;
+  margin-right: 3rem;
   text-decoration: none;
   font-size: 1.2rem;
   line-height: 0.9rem;
