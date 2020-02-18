@@ -134,6 +134,15 @@ body {
   background: url("assets/right-black.png") no-repeat 0 0;
 }
 
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 20px 220px 20px 220px 20px 220px;
+  grid-template-rows: 157px repeat(2, 127px);
+}
+.services {
+  grid-area: 1 / 1 / 2 / 7;
+}
+
 
 
 .iphone-vertical {
