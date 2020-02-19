@@ -24,6 +24,7 @@ body {
 
 .footer {
   background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
 }
 
 .logo {
@@ -91,6 +92,7 @@ body {
 
 .main {
   background-color: #f06c64;
+  border-bottom: 12px solid #d96c6f;
 }
 
 .slider-wrapper {
@@ -134,26 +136,48 @@ body {
   background: url("assets/right-black.png") no-repeat 0 0;
 }
 
+  .iphone-vertical {
+    margin-left: 56px;
+  }
+  
+  .iphone-horizontal {
+    margin-left: 73px;
+  }
+  
+  
+  .nav-link:hover {
+    color: #f06c64;
+  }
+
+
 .footer-wrapper {
   display: grid;
-  grid-template-columns: 20px 220px 20px 220px 20px 220px;
-  grid-template-rows: 157px repeat(2, 127px);
+  grid-template-columns: 120px 240px 80px 240px 80px 260px;
+  grid-template-rows: 220px repeat(2, 140px);
 }
 .services {
   grid-area: 1 / 1 / 2 / 7;
 }
 
 
-
-.iphone-vertical {
-  margin-left: 56px;
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+  color: #666d;
+  margin-top: 56px;
+  margin-left: 40px;
+  letter-spacing: -0.18px;
 }
 
-.iphone-horizontal {
-  margin-left: 73px;
-}
-
-
-.nav-link:hover {
-  color: #f06c64;
+.services-description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #767e9e;
+  justify-content: stretch;;
+  margin: 25px 40px 0 40px;
+  
+  
 }
