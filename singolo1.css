@@ -150,63 +150,59 @@ body {
   }
 
 
-.footer-wrapper {
-  display: grid;
-  grid-template-columns: 360px 320px 340px;
-  grid-template-rows: 220px 120px 160px;
-}
-.services {
-  grid-area: 1 / 1 / 2 / 4;
-}
-
-
-h2 {
-  font-size: 3rem;
-  font-weight: 900;
-  font-style: normal;
-  color: #666d;
-  margin-top: 56px;
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 120px 240px 80px 240px 80px 260px;
+    grid-template-rows: 220px 120px 160px;
+  }
+  .services {
+    grid-area: 1 / 1 / 2 / 7;
+  }
+  
+  
+  h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: normal;
+    color: #666d;
+    margin-top: 56px;
+    margin-left: 40px;
+    letter-spacing: -0.18px;
+  }
+  
+  .services-description {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #767e9e;
+    justify-content: stretch;
+    margin: 11px 40px 0 40px;
+  }
+  
+  .icon-pen {
   margin-left: 40px;
-  letter-spacing: -0.18px;
-}
-
-.services-description {
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 30px;
-  color: #767e9e;
-  justify-content: stretch;
-  margin: 11px 40px 0 40px;
-}
-
-.icon-pen {
-margin-left: 40px;
-}
-.description {
-  margin-left: 50px;
-}
-
-.description-title {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 900;
-  line-height: 17px;
-  color: #666d89;
-  letter-spacing: -0.09px;
-  text-align: justify;
-}
-
-.description-text {
-  margin: 11px 15px 0 0;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 21px;
-  overflow: hidden;
-  line-height: 21px;
-  color: #767e9e;
-  text-align: justify;
-  letter-spacing: -0.09px;
-}
-.icon-phone {
-  margin-left: 40px;
-}
+  }
+  
+  .description-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 17px;
+    color: #666d89;
+    letter-spacing: -0.09px;
+  }
+  
+  .description-text {
+    margin: 11px 15px 0 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    overflow: hidden;
+    line-height: 21px;
+    color: #767e9e;
+    text-align: justify;
+    letter-spacing: -0.09px;
+  }
+  .icon-phone {
+    margin-left: 40px;
+  }
