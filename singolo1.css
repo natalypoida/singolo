@@ -149,6 +149,9 @@ body {
     color: #f06c64;
   }
 
+.our-services{
+margin-top: 15px;
+}
 
   .our-services-wrapper {
     display: grid;
@@ -182,7 +185,9 @@ body {
   .icon-pen {
   margin-left: 40px;
   }
-  
+  .description {
+    margin-bottom: 10px;
+  }
   .description-title {
     margin: 0;
     font-size: 18px;
@@ -203,6 +208,7 @@ body {
     text-align: justify;
     letter-spacing: -0.09px;
   }
+
   .icon-phone {
     margin-left: 40px;
   }
