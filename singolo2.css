@@ -57,3 +57,41 @@ font-family: "Lato";
 font-weight: 300;
 text-align: left;
 }
+.button {
+  width: 34px;
+  height: 34px; 
+  position: relative;
+  cursor: pointer;
+  border: none;
+}
+.facebook {
+  background: url("assets/Facebook.png") no-repeat 0 0;
+}
+
+.facebook:hover {
+  background: url("assets/facebook-hover.png") no-repeat 0 0;
+}
+
+.google {
+  background: url("assets/Google.png") no-repeat 0 0;
+}
+
+.google:hover {
+  background: url("assets/google-hover.png") no-repeat 0 0;
+}
+
+.twitter {
+    background: url("assets/Twitter.png") no-repeat 0 0;
+}
+
+.twitter:hover {
+  background: url("assets/twitter-hover.png") no-repeat 0 0;
+}
+
+.linkedin {
+  background: url("assets/LinkedIn.png") no-repeat 0 0;
+}
+
+.linkedin:hover {
+  background: url("assets/linkedin-hover.png") no-repeat 0 0;
+}
