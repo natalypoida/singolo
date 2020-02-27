@@ -34,10 +34,19 @@
       url("assets/fonts/lato-v16-latin-900.woff") format("woff");
   }
   
-  body {
-    margin: 0;
+body {
+    margin: 0 0;
     font-family: "Lato", "Arial", sans-serif;
+    width: 1020px;
+    
   }
+
+.portfolio-wrapper {
+  margin: 0 auto;
+  background-color: #464b5e;
+  position: relative;
+  }
+
 .portfolio-title {
 font-size: 30px;
 line-height: 18px;
@@ -47,6 +56,40 @@ font-weight: 900;
 text-align: left;
 }
 
+.portfolio-text {
+width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: 'Lato';
+font-weight: 300;
+text-align: left;
+}
+
+.item-selected {
+  width: 29px;
+  height: 22px;
+  border-radius: 5px;
+  background-color: #464b5e;
+  color: #666d89;
+  border: 1px solid #c5c5c5;
+  outline: none;
+}
+
+.item-selected:hover {
+  outline: none;
+  border-color: white;
+  color: white;
+}
+ .portfolio-buttons:nth-child(2) {
+  width: 78px;
+  height: 22px;
+  border-radius: 5px;
+  background-color: #464b5e;
+  border: 1px solid #666d89;
+  outline-style: none;
+ }
 .portfolio-description {
 width: 940px;
 height: 57px;
@@ -57,6 +100,7 @@ font-family: "Lato";
 font-weight: 300;
 text-align: left;
 }
+
 .button {
   width: 34px;
   height: 34px; 
@@ -64,6 +108,12 @@ text-align: left;
   cursor: pointer;
   border: none;
 }
+
+.portfolio-samples:nth-child(n+13) {
+  display: none;
+}
+
+
 .facebook {
   background: url("assets/Facebook.png") no-repeat 0 0;
 }
