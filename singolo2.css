@@ -43,8 +43,10 @@ body {
 
 .portfolio-wrapper {
   display : flex;
+  width: 1020px;
+  height: 865px;
   margin: 0 auto;
-  background-color: #464b5e;
+  background-color: #2d303a;
   position: relative;
   flex-direction: column; 
   border-bottom: 6px solid  #323746;
@@ -86,7 +88,7 @@ justify-content: space-around;
 }
 .tag {
 border-radius: 5px;
-background-color: #464b5e;
+background-color: #2d303a;
 border: 1px solid #666d89;
 outline-style: none;
 height: 22px;
@@ -99,8 +101,6 @@ font-weight: 400;
   .tag-selected {
   width: 29px;
   height: 22px;
-  border-radius: 5px;
-  background-color: #464b5e;
   color: #c5c5c5;
   border: 1px solid #c5c5c5;
   outline: none;
@@ -129,9 +129,9 @@ text-align: left;
 .four-columns-layout {
 display: flex; 
 flex-wrap: wrap;
-margin: 0 40px 70px 40px; 
+margin: 5px 40px 55px 40px; 
 width: 940px;
-height: 601px;
+height: 610px;
 justify-content: space-between;
 
 }
@@ -148,7 +148,7 @@ justify-content: space-between;
 }
 
 .about-us-title {
-margin-top: 63px;
+margin-top: 70px;
 margin-left: 40px;
 font-size: 30px;
 line-height: 18px;
@@ -182,7 +182,6 @@ margin-left: 40px;
  }
  .employee-name {
   font-size: 18px;
-  line-height: 18px;
   color: #666d89;
   font-family: "Lato";
   font-weight: 900;
@@ -200,20 +199,6 @@ margin-left: 40px;
   text-align: left; 
 }
   
- 
- 
-
-
-/*.three-columns-layout {
-  display: flex; 
-  flex-wrap: wrap;
-  margin: 0 40px 70px 40px; 
-  width: 940px;
-  height: 728px;
-  
-
-}
-*/
 .button {
   width: 34px;
   height: 34px; 
@@ -227,7 +212,7 @@ margin-top: 5px;
   display: none;
 }
 
-
+/* employee links*/
 .facebook {
   background: url("assets/Facebook.png") no-repeat 0 0;
 }
