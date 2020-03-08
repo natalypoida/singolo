@@ -76,7 +76,19 @@ html {
     padding-top: 10px;
     resize: none;
 }
-
+.submit-button {
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: -106px;
+    bottom: 0;
+    font: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    color:#f0d8d9;
+    background-color: #666d89;
+}
 .contact-information {
     width: 300px;
 }
