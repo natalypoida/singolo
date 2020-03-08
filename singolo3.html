@@ -8,72 +8,76 @@
             @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700i,900&display=swap');
         </style>
     </head>
-    
-        <section class="contact" id="contact">
-            <div class="contact-wrapper">
-                <div class="forms">
+    <body>
+        <main class="main">
+            
+        <section class="contact " id="contact">
+            
                      <h1 class="contact-title">Get a Quote</h1>
              <p class="contact-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-               <form class="contact-forms">
-                   <div class="form-group">
-                        <label id="name-label" for="name"></label>
+                </div>
+                <div class="contact__form-group">
+                    <form class="contact-forms" action="#" method="GET">
                         <input
                             type="text"
                             name="name"
-                            id="name"
                             class="form-control"
-                             placeholder="Name(Required)"
+                            placeholder="Name(Required)"
                             required />
-                   </div>
-                   <div class="form-group">
-                    <label id="email-label" for="email"></label>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      class="form-control"
-                      placeholder="Email(Required)"
-                      required
-                    />
-                   </div>
-                   <div class="form-group">
-                    <label id="subject-label" for="subject"></label>
-                    <input
-                        type="text"
-                        name="subject"
-                        id="subject"
-                        class="form-control"
-                         placeholder="Subject"
-                     />
-               </div>
-               <div class="form-group">
-                    <textarea
-                        id="project"
-                        class="input-textarea"
-                        name="project"
-                        placeholder="Describe your project in detail..."
-                ></textarea>
-              </div>
-              <div class="form-group">
-                <button type="submit" id="submit" class="submit-button">
-                  Submit
-                </button>
-              </div>
-               </form>
-            </div>
-            <div class="contact-information">
-                <h2 class="contact-information-title">Contact Information</h2>
-                <p class="contact-information-text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
-                    Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
-                    <div class="contact-links">
-                    <img class="ico ico_location"/><a href="#" class="contact-links-location">Elm St. 14/05 Lost City </a>
-                    <img class="ico ico_phone"/> <a href="tel:03528 331 86 35 " class="contact-links-phone">03528 331 86 35 </a>
-                    <img class="ico ico_location"/> <a href="mailto:info@singolo.com" class="contact-links-mail">info@singolo.com</a>
-                    </div>  
-            </div>
-            </div>    
+                         <input
+                             type="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="Email(Required)"
+                            required/>
+                        <input
+                            type="text"
+                            name="subject"
+                            class="form-control"
+                            placeholder="Subject"/>
+                        <textarea
+                            class="form-textarea"
+                            name="project"
+                            placeholder="Describe your project in detail..."></textarea>
+                         
+            
+                             <!-- <button type="submit" id="submit" class="submit-button">
+                                     Submit
+                                    </button>-->
+                    </form>
+                    <div class="contact-information">
+                        <h2 class="contact-information-title">Contact Information</h2>
+                            <p class="contact-information-text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
+                                Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
+                            <ul class="contact-links">
+                               <li><img src="assets/location.png" alt="location"/>
+                                   <a href="#">Elm St. 14/05 Lost City </a></li>
+                                <li><img src="assets/phone.png" alt="phone"/> 
+                                    <a href="tel:03528 331 86 35 " >03528 331 86 35 </a></li>
+                                <li><img  src="assets/mail.png" alt="mail"/> 
+                                    <a href="mailto:info@singolo.com">info@singolo.com</a></li>
+                            </ul>  
+                    </div>
+                </div>
+        
             </section>
+            </main>
 <footer>
+    <div class="footer-wrapper">
+    <div class="copyright">
+    <img class="ico ico_copyright"
+        src="assets/copyright.png"
+        alt="copyright">
+        </div>
+        <div class="social-media">
+                        <button class="button facebook"></button>
+                        <button class="button google"></button>
+                        <button class="button twitter"></button>
+                        <button class="button linkedin"></button>            
+            </div>
+            </div>
     </footer>
+
+    </body>
 </html>
