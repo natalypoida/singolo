@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Singolo</title>
-        <link rel="stylesheet" href="style.css" />
-        <style>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/font_lato.css">
+<!--<style>
             @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700i,900&display=swap');
-        </style>
+        </style>-->
   </head>
     <body>
 
         <header class="header">
-            <div class="header-wrapper">
-                <h1 class="logo">singolo</h1>
-                <div class="nav">
+            <div class=" wrapper header-wrapper">
+                <a href="#" class="logo">
+                <h1 class="logo-name">SINGOLO</h1>
+                <span class="logo-after">*</span>
+                </a>
+                <nav class="header-nav">
                     <ul class="nav-list">
-                        <li><a class="colored" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#services">Services</a></li>
-                        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li><a class="nav-link" href="#about">About</a></li>
-                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-link"><a href="#home">HOME</a></li>
+                        <li class="nav-dot">&#183;</li>
+                        <li class="nav-link"><a href="#services">SERVICES</a></li>
+                        <li class="nav-dot">&#183;</li>
+                        <li class="nav-link"><a href="#portfolio">PORTFOLIO</a></li>
+                        <li class="nav-dot">&#183;</li>
+                        <li class="nav-link"><a href="#about">ABOUT</a></li>
+                        <li class="nav-dot">&#183;</li>
+                        <li class="nav-link"><a href="#contact">CONTACT</a></li>
                     </ul>
-                 </div>
+                 </nav>
              </div>
         </header>
         <main>
-            <div class="first-wrapper">
-                <section class="slider">
-                    <div class="slider-wrapper">
+            <div class="slider">
+                <!--<section class="slider">-->
+                    <div class="wrapper slider-wrapper">
                         <button class="button-left"></button>
-                        <img    class="iphone-vertical"
+                        <div class="slides">
+                            <div class="slides__slide phones">
+                              <div class="phone phone_vertical">
+                              <div class="phone__base"></div>
+                              <div class="phone__screen"></div>
+                              <div class="phone__shadow"><div></div></div>
+                              </div>
+                              <div class="phone phone_horizontal">
+                              <div class="phone__base"></div>
+                              <div class="phone__screen"></div>
+                              <div class="phone__shadow"><div></div></div>
+                              </div>
+                            </div>
+                            </div>
+                        <!--<img    class="iphone-vertical"
                             src="assets/iphone-vert.png"
                             alt="Iphone vertical"
                             width="240"
@@ -39,85 +61,81 @@
                             src="assets/iphone-horiz.png"
                             alt="Iphone horizontal"
                             width="483"
-                            height="240"/>
+                            height="240"/>-->
                         <button class="button-right"></button>
                     </div>
-                </section>
+                </div>
                
                 <section class="our-services" id="services">
-                    <div class="our-services-wrapper">
-                        <section class="services">
-                            <h2>Our Services </h2>
+                    <div class="wrapper our-services-wrapper">
+                        
+                            <h2 class="section-title">Our Services </h2>
                             <p class="services-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
                                 Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget
                                 lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
                                 tortor mauris condimentum nibh.</p>
-                        </section>
-                        <img class="icon-pen"
-                            src="assets/pen.svg"
-                            alt="pen"
-                            width="59"
-                            height="59"/>
-                        <div class="descriptoin">
-                            <h3 class="description-title">Custom Design</h3>
-                            <p class="description-text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in
-                                    quam laoreet, viverra lacus ut, ultrices velit.</p>
-                        </div>    
-                        <img class="icon"
-                            src="assets/lightbulb.svg"
-                            alt="pen"
-                             width="59"
-                            height="59"/> 
-                        <div class="description">
-                            <h3 class="description-title">Inovative Ideas</h3>
-                            <p class="description-text"> Quisque luctus, quam eget molestie com-modo, lacus purus
-                         cursus purus, nec rutrum tellus dolor id lorem.</p>
-                        </div>
-                        <img class="icon"
-                            src="assets/heart.svg"
-                            alt="pen"
-                            width="59"
-                            height="59"> 
-                        <div class="description">
-                            <h3 class="description-title">Love Is The Answer</h3>
-                            <p class="description-text"> Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
-                                        turpis, et consequat felis. Quisque condimentum.</p>
-                        </div>
-                        <img class="icon-phone"
-                            src="assets/phone.svg"
-                            alt="phone"
-                            width="59"
-                            height="59"/>
-                        <div class="description">
-                            <h3 class="description-title">Responsive Layout</h3>
-                            <p class="description-text"> Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas
-                            blandit nunc ligula. Prae-sent elit leo.</p>
-                        </div>
-                        <img class="icon"
-                            src="assets/bubble.svg"
-                            alt="bubble"
-                            width="59"
-                            height="59"/>
-                        <div class="description">
-                            <h3 class="description-title">24 / 7 Support</h3>
-                            <p class="description-text"> Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
-                            Nulla a sem erat. Pellen-tesque egestas venenatis lorem .</p>
-                        </div>
-                        <img class="icon"
-                            src="assets/star.svg"
-                            alt="bubble"
-                            width="59"
-                            height="59"/>
-                        <div class="description">
-                            <h3 class="description-title">Feel Like A Star</h3>
-                            <p class="description-text"> Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
-                                nibh. Fusce vitae aliquam tellus.</p>
-                        </div>
+                        
+                        <div class="layout-3-column">
+                            <article class="service">
+                            <img class="service__icon" src="./assets/pen.svg" alt="pen">
+                            <div class="service__content">
+                              <h3 class="service__name">Custom Design</h3>
+                              <p class="service__text">
+                              Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.
+                              </p>
+                            </div>
+                            </article>
+                            <article class="service">
+                            <img class="service__icon" src="./assets/lightbulb.svg" alt="pen">
+                            <div class="service__content">
+                              <h3 class="service__name">Inovative Ideas</h3>
+                              <p class="service__text">
+                              Quisque luctus, quam eget molestie com- modo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.
+                              </p>
+                            </div>
+                            </article>
+                            <article class="service">
+                            <img class="service__icon" src="./assets/heart.svg" alt="pen">
+                            <div class="service__content">
+                              <h3 class="service__name">Love Is The Answer</h3>
+                              <p class="service__text">
+                              Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.
+                              </p>
+                            </div>
+                            </article>
+                            <article class="service">
+                            <img class="service__icon" src="./assets/phone.svg" alt="pen">
+                            <div class="service__content">
+                              <h3 class="service__name">Responsive Layout</h3>
+                              <p class="service__text">
+                              Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Prae- sent elit leo.
+                              </p>
+                            </div>
+                            </article>
+                            <article class="service">
+                            <img class="service__icon" src="./assets/bubble.svg" alt="pen">
+                            <div class="service__content">
+                              <h3 class="service__name">24 / 7 Support</h3>
+                              <p class="service__text">
+                              Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellen- tesque egestas venenatis lorem .
+                              </p>
+                            </div>
+                            </article>
+                            <article class="service">
+                            <img class="service__icon" src="./assets/star.svg" alt="pen">
+                            <div class="service__content">
+                              <h3 class="service__name">Feel Like A Star</h3>
+                              <p class="service__text">
+                              Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.
+                              </p>
+                            </div>
+                            </article>
+                            </div>
                     </div>
                 </section>
             </div>
             <section class="portfolio" id="portfolio">
-                <div class="portfolio-wrapper">
+                <div class="wrapper portfolio-wrapper">
                   <h2 class="portfolio-title">Portfolio</h2>
                   <p class="portfolio-text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
                     <div class="portfolio-tags">
@@ -139,11 +157,13 @@
                         <img class="portfolio-picture" src="assets/10.jpg" width="220" height="187">
                         <img class="portfolio-picture" src="assets/11.jpg" width="220" height="187">
                         <img class="portfolio-picture" src="assets/12.jpg" width="220" height="187">
+                        <img class="portfolio-picture" src="assets/12.jpg" width="220" height="187">
+                        
                     </div>
                 </div>
             </section>
             <section class="about-us" id="about">
-                <div class="about-us-wrapper">
+                <div class="wrapper about-us-wrapper">
                     <section class="about">
                         <h2 class="about-us-title">About Us</h2>
                         <p class="about-us-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor
@@ -153,7 +173,7 @@
                     <div class="employee">
                         <img class="employee-photo" src="assets/left-woman.png" width="300" height="300">
                         <h3 class="employee-name">Adam Jensen</h3>
-                        <p class="employee-info">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus,nec rutrum tellus
+                        <p class="employee-info">Quisque luctus, quam eget molestie commodo, lacus purus<br> cursus purus,nec rutrum tellus
                          dolor id lorem.
                         </p>
                         <button class="employee-button facebook"></button>
@@ -164,7 +184,7 @@
                     <div class="employee">
                         <img class="employee-photo" src="assets/man.png" width="300" height="300">
                         <h3 class="employee-name">Desmond Miles</h3>
-                        <p class="employee-info">Curabitur vestibulum eget mauris quis laoreet. Phasellus in culam laoreet,
+                        <p class="employee-info">Curabitur vestibulum eget mauris quis laoreet. Phasellus<br> in culam laoreet,
                             viverra lacus ut, ultrices verit.
                         </p>
                         <button class="employee-button facebook"></button>
@@ -185,13 +205,14 @@
                     </div>
                 </div>
             </section>
-                <div class="second-wrapper">
-                    <section class="contact " id="contact">
-                         <h1 class="contact-title">Get a Quote</h1>
+            <section class="contact " id="contact">
+                <div class="wrapper second-wrapper">
+                    
+                         <h2 class="contact-title">Get a Quote</h2>
                          <p class="contact-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                         <div class="contact__form-group">
-                            <form class="contact-forms" action="#" method="GET">
+                            <form class="contact-forms" action="#" method="POST">
                                 <input
                                     type="text"
                                     name="name"
@@ -218,7 +239,7 @@
                                 </button>
                             </form>
                                 <div class="contact-information">
-                                    <h2 class="contact-information-title">Contact Information</h2>
+                                    <h3 class="contact-information-title">Contact Information</h3>
                                         <p class="contact-information-text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
                                             Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
                                         <ul class="contact-links">
@@ -231,16 +252,15 @@
                                         </ul>  
                                 </div>
                             </div>
-                        </section>
+                        
                     </div>
+                </section>
             </main>
             <footer>
-                <div class="footer-wrapper">
-                    <div class="copyright">
-                        <img class="ico ico_copyright"
-                            src="assets/copyright.png"
-                            alt="copyright">
-                    </div>
+                <div class="wrapper footer-wrapper">
+                    
+                        <span>&#169; Copyright 2013</span>
+                    
                     <div class="social-media">
                         <button class="button facebook"></button>
                         <button class="button google"></button>
